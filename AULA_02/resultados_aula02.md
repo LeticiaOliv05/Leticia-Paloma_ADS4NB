@@ -26,3 +26,7 @@ Classe [troca_devolucao]: 63.53%
 # 2 - Detectado algum erro, qual seria a maneira mais correta de melhorar o resultado do algoritmo?
 
 # 3 - Detalhe a função do Naive Bayes no algorítmo.
+
+
+
+--- RESULTADOS DO LAB 03 ---
