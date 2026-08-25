@@ -44,4 +44,107 @@ O principal risco é o overfitting. ela fica complexa e aprende de mais os dados
 
 --- RESULTADOS DO LAB 04 ---
 
+DATASET COMPLETO:
+                                                frase          intencao
+0           Quero comprar uma passagem para São Paulo  comprar_passagem
+1       Preciso reservar um voo para o Rio de Janeiro  comprar_passagem
+2              Gostaria de comprar uma passagem aérea  comprar_passagem
+3   Quero viajar para Salvador e preciso de uma pa...  comprar_passagem
+4                Como faço para comprar uma passagem?  comprar_passagem
+5                        Quero cancelar minha reserva  cancelar_reserva
+6                            Preciso cancelar meu voo  cancelar_reserva
+7     Não vou mais viajar e quero cancelar a passagem  cancelar_reserva
+8                  Como posso cancelar minha reserva?  cancelar_reserva
+9                Gostaria de desistir da minha viagem  cancelar_reserva
+10                       Quero falar com um atendente   falar_atendente
+11                     Preciso de ajuda de uma pessoa   falar_atendente
+12               Posso falar com um atendente humano?   falar_atendente
+13              Quero conversar com alguém da agência   falar_atendente
+14                        Preciso falar com o suporte   falar_atendente
 
+==================================================
+QUANTIDADE DE FRASES POR INTENÇÃO:
+intencao
+comprar_passagem    5
+cancelar_reserva    5
+falar_atendente     5
+Name: count, dtype: int64
+
+==================================================
+DIVISÃO DOS DADOS
+==================================================
+Quantidade de frases para treino: 11
+Quantidade de frases para teste: 4
+
+==================================================
+VETORIZAÇÃO
+==================================================
+Formato dos dados de treino: (11, 36)
+Formato dos dados de teste: (4, 36)
+
+==================================================
+MODELO TREINADO COM SUCESSO!
+==================================================
+
+==================================================
+RESULTADOS DO CONJUNTO DE TESTE
+==================================================
+
+Frase: Posso falar com um atendente humano?
+Intenção real: falar_atendente
+Intenção prevista: falar_atendente
+----------------------------------------
+
+Frase: Preciso falar com o suporte
+Intenção real: falar_atendente
+Intenção prevista: falar_atendente
+----------------------------------------
+
+Frase: Gostaria de desistir da minha viagem
+Intenção real: cancelar_reserva
+Intenção prevista: comprar_passagem
+----------------------------------------
+
+Frase: Como faço para comprar uma passagem?
+Intenção real: comprar_passagem
+Intenção prevista: comprar_passagem
+----------------------------------------
+
+==================================================
+ACURÁCIA DO MODELO
+==================================================
+Acurácia: 75.00%
+
+==================================================
+RELATÓRIO DE CLASSIFICAÇÃO
+==================================================
+                  precision    recall  f1-score   support
+
+cancelar_reserva       0.00      0.00      0.00         1
+comprar_passagem       0.50      1.00      0.67         1
+ falar_atendente       1.00      1.00      1.00         2
+
+        accuracy                           0.75         4
+       macro avg       0.50      0.67      0.56         4
+    weighted avg       0.62      0.75      0.67         4
+
+
+==================================================
+PREDIÇÕES COM FRASES INÉDITAS
+==================================================
+
+Frase: Gostaria de comprar um voo para Recife
+Intenção prevista: comprar_passagem
+----------------------------------------
+
+Frase: Preciso desistir da reserva da minha viagem
+Intenção prevista: cancelar_reserva
+----------------------------------------
+
+Frase: Quero conversar com uma pessoa da agência
+Intenção prevista: falar_atendente
+----------------------------------------
+
+==================================================
+FIM DO DESAFIO NLU
+==================================================
