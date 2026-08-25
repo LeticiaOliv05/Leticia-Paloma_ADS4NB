@@ -42,7 +42,14 @@ Posso trocar um produto comprado?     troca_devolucao     troca_devolucao
 
 #========== PRODUÇÃO DO RELATÓRIO:==============
 # 1 - O que representam as métricas Precision, Recall e F1-Score no relatório?
+Precision: mostra quantas previsões do modelo estavam corretas.
+Recall: mostra quantos casos reais o modelo conseguiu identificar.
+F1-Score: representa o equilíbrio entre Precision e Recall.
+
 # 2 - Como interpretar a diagonal principal da Matriz de Confusão?
+Mostra os casos que o modelo classificou corretamente. Quanto maiores os valores da diagonal, melhor o resultado.
+
 # 3 - Por que a acurácia isolada pode ser enganosa quando temos classes desbalanceadas?
+Pode ser enganosa porque o modelo pode acertar principalmente a classe com maior quantidade de exemplos e ainda apresentar uma acurácia alta, mesmo errando nas classes menores.
 
          
