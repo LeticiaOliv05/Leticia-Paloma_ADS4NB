@@ -52,4 +52,10 @@ Mostra os casos que o modelo classificou corretamente. Quanto maiores os valores
 # 3 - Por que a acurácia isolada pode ser enganosa quando temos classes desbalanceadas?
 Pode ser enganosa porque o modelo pode acertar principalmente a classe com maior quantidade de exemplos e ainda apresentar uma acurácia alta, mesmo errando nas classes menores.
 
-         
+LAB 03 - AULA 03 (MLCB): Scikit-Learn Pipeline 
+Acuracia via Pipeline: 100.00%
+# 1 - Cole o código corrigido e a acurácia obtida.
+
+# 2 - Qual é a grande vantagem de utilizar o objeto Pipeline no Scikit-Learn?
+# 3 - Por que o Pipeline evita que erros de pré-processamento ocorram entre treino e teste?
+# Todos os resultados devem ser inseridos no arquivo resultados_aula03.md
