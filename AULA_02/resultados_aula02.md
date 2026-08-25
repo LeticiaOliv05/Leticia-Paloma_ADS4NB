@@ -30,3 +30,18 @@ Classe [troca_devolucao]: 63.53%
 
 
 --- RESULTADOS DO LAB 03 ---
+ # 1 - Qual foi a acurácia obtida pelo modelo no conjunto de teste e por que, em um dataset tão pequeno (9 exemplos), essa métrica pode ser enganosa?
+
+A Acuaria foi de 33,33%, como o dataset tem apenas 9 exemplos, o resultado pode ser enganoso , pois foram usados poucos para teste. cade erro pode alterar bastante o resultado(porcentagem) da acuaria.
+
+# 2 - Como o modelo de Árvore de Decisão (DecisionTreeClassifier) toma a decisão de separar as intenções do usuário?
+
+A árvore da decisão analisa as palavras das mensagens e cria regras para separar as diferentes iintenções.
+
+# 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores?
+
+O principal risco é o overfitting. ela fica complexa e aprende de mais os dados de treinamento, tendo dificuldades para classificar as mensagens novas.
+
+--- RESULTADOS DO LAB 04 ---
+
+
