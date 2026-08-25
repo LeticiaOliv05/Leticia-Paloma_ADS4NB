@@ -12,6 +12,7 @@ O erro aconteceu por que a frase foi classificada  com uma intenção diferente 
 # 3 - Detalhe a função do LogisticRegression no algorítmo.
 Classificar as frases de acordo com sua intenção, com dados de entrada para saídas desejadas, a partir de exemplos rotulados.
 
+
 --- RESULTADOS DO LAB 02 ---
 
 # 1 - Avaliem os resultados e verifiquem se os resultados foram corretos ou incorretos. Coloque a resposta no arquivo do relatório do laboratório
@@ -24,9 +25,9 @@ Classe [rastrear_pedido]: 17.79%
 Classe [troca_devolucao]: 63.53%
 
 # 2 - Detectado algum erro, qual seria a maneira mais correta de melhorar o resultado do algoritmo?
-
+Não houve erro na classificação. Para melhorar o algoritmo, seria importante aumentar e diversificar o dataset, adicionando mais exemplos para cada intenção.
 # 3 - Detalhe a função do Naive Bayes no algorítmo.
-
+O Naive Bayes classifica a mensagem calculando a probabilidade de ela pertencer a cada intenção. Ele escolhe a classe com maior probabilidade. Neste caso, classificou a mensagem como troca_devolucao.
 
 
 --- RESULTADOS DO LAB 03 ---
@@ -41,6 +42,7 @@ A árvore da decisão analisa as palavras das mensagens e cria regras para separ
 # 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores?
 
 O principal risco é o overfitting. ela fica complexa e aprende de mais os dados de treinamento, tendo dificuldades para classificar as mensagens novas.
+
 
 --- RESULTADOS DO LAB 04 ---
 
@@ -148,3 +150,12 @@ Intenção prevista: falar_atendente
 ==================================================
 FIM DO DESAFIO NLU
 ==================================================
+
+
+Neste laboratório, foi desenvolvido um protótipo de NLU (Natural Language Understanding) para uma agência de viagens. Foi criado um dataset próprio com 15 frases, distribuídas em três intenções: comprar_passagem, cancelar_reserva e falar_atendente.
+
+Os dados foram divididos em conjuntos de treino e teste utilizando o train_test_split. Para transformar os textos em dados numéricos, foi utilizado o TfidfVectorizer, e o algoritmo escolhido para a classificação foi o LogisticRegression.
+
+Após o treinamento, o modelo foi testado com frases inéditas e conseguiu identificar as intenções relacionadas à compra de passagens, cancelamento de reservas e atendimento humano.
+
+O desafio demonstrou como técnicas de Machine Learning e Processamento de Linguagem Natural podem ser utilizadas para criar um chatbot capaz de compreender a intenção do usuário.
