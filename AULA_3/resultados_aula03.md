@@ -65,4 +65,5 @@ A  vantagem é juntar o pré-processamento e o modelo em um único fluxo, deixan
 
 # 3 - Por que o Pipeline evita que erros de pré-processamento ocorram entre treino e teste?
 Porque o Pipeline aplica o mesmo pré-processamento nos dados de treino e teste, evitando diferenças ou erros no processamento.
+
 # Todos os resultados devem ser inseridos no arquivo resultados_aula03.md
