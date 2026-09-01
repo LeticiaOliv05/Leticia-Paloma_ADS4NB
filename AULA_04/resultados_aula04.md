@@ -12,6 +12,7 @@ Houve confusão principalmente entre Logística/Entregas e Vendas, Reclamações
 ## 2. Análise dos Testes de Entrada (`input()`)
 
 - **Comportamento do KNN (10 testes):**
+  
  - O KNN apresentou bom desempenho nas frases relacionadas diretamente ao domínio do SAC. A frase "tem cupom para compra?" foi classificada como `vendas` com 100% de probabilidade. Frases sem relação clara com o atendimento, como "vou tomar refrigerante", "banana" e "Gustavo só inventa desculpa", foram encaminhadas para o fallback. Porém, algumas frases novas ou fora dos exemplos do treinamento, como "quero uma beliche", "quero dormir" e "gosto de verde", foram classificadas incorretamente, mostrando que o fallback não consegue identificar todos os casos fora do domínio.
 
 - **Comportamento da Decision Tree (8 testes):**
@@ -19,7 +20,9 @@ Houve confusão principalmente entre Logística/Entregas e Vendas, Reclamações
 
 ## 3. Veredito Final
 
-- **Melhor modelo para este projeto:** **KNN (K=3)**
+- **Melhor modelo para este projeto:**
+
+- KNN (K=3)
 
 - **Justificativa técnica:**
 - O KNN apresentou desempenho superior nos dados de teste, alcançando 100,00% de acurácia e 100,00% de F1-Score Weighted. Sua matriz de confusão não apresentou nenhum erro nas 30 amostras avaliadas. Já a Decision Tree apresentou 80,00% de acurácia e 80,00% de F1-Score Weighted, com algumas confusões entre as classes. Nos testes de entrada, os dois modelos apresentaram algumas classificações incorretas para frases novas, porém o KNN apresentou melhor desempenho geral. Portanto, o KNN é o modelo mais adequado para este projeto.
