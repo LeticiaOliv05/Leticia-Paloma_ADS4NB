@@ -24,3 +24,4 @@ Teste 4
 
 ** RESULTADOS LAB03**
 <img width="1034" height="497" alt="image" src="https://github.com/user-attachments/assets/48b984ab-43aa-420c-b977-7d97d215ba05" />
+<img width="1028" height="492" alt="image" src="https://github.com/user-attachments/assets/ea6c5065-4377-4bbe-9087-353083480281" />
