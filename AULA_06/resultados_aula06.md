@@ -17,6 +17,8 @@ Teste 4
 
 
 ** RESULTADOS LAB02**
+<img width="1019" height="492" alt="image" src="https://github.com/user-attachments/assets/47efefc7-05cd-4d46-ab16-f247629cd650" />
+<img width="1015" height="491" alt="image" src="https://github.com/user-attachments/assets/a2771b01-2a81-4598-b8ee-fafcd6c0bb86" />
 
 
 ** RESULTADOS LAB03**
